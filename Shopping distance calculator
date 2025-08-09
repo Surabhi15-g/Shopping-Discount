@@ -1,0 +1,4 @@
+p = float(input("Enter the Original Price"))
+discount = float(input("Enter the Discount Percentage"))
+fp = p-p*(discount/100)
+print(f"Total price that you gonna pay would be {fp}")
